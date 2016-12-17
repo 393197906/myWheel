@@ -8,3 +8,6 @@
     data:{},  //数据
     method:{}  //方法
 }
+
+
+haha
