@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        name：<input type="text" x-model="name">
+        age:<input type="text" x-model="age">
+        <p x-bind="name"></p>
+        <p x-bind="age"></p>
+        <button  x-click="add">start</button>
+        <button  x-click="closeInter">close</button>
+        <button  x-click="hell">hell</button>
+    </div>
+    <script src="//cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
+    <script src="xie.js" charset="utf-8"></script>
+    <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
